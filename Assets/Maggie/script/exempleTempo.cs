@@ -35,18 +35,17 @@ public class DisplayTime : MonoBehaviour
         {
             ClickTime += ClickCoolDown;
             TimingSizeDivider = 0;
-        }
-
-        if (Time.time >= ClickTime - ClickWindow && Time.time <= ClickTime + ClickWindow)
-        {
-            InTiming = true;
+            InTiming = false;
         }
         else
         {
-            InTiming = false;
-        }
+            if (Time.time >= ClickTime - ClickWindow && Time.time <= ClickTime + ClickWindow)
+            {
+                InTiming = true;
+            }
+         }
 
-        if (Input.GetButtonDown("Fire1"))
+        if (Input.GetButtonDown("A"))
         {
             if (InTiming)
             {

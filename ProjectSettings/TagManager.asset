@@ -42,6 +42,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: button
+  - name: UI_Circle
     uniqueID: 703887277
+    locked: 0
+  - name: UI_Canvas
+    uniqueID: 834111691
     locked: 0
