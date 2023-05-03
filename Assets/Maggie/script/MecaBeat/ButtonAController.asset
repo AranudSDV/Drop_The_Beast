@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: ButtonAController
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":91.7394,"y":146.3367},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{"buttonName":{"$content":"A","$type":"System.String"},"action":{"$content":"Down","$type":"Unity.VisualScripting.PressState"}},"position":{"x":-101.0,"y":-58.0},"guid":"acd1ae43-718f-4a17-809c-fe43d3e1634a","$version":"A","$type":"Unity.VisualScripting.OnButtonInput","$id":"9"},{"coroutine":false,"defaultValues":{"buttonName":{"$content":"A","$type":"System.String"},"action":{"$content":"Up","$type":"Unity.VisualScripting.PressState"}},"position":{"x":-100.0,"y":229.0},"guid":"f63a73fb-1dc0-4c5c-b230-c2e137e50454","$version":"A","$type":"Unity.VisualScripting.OnButtonInput"},{"type":"UnityEngine.Sprite","value":{"$content":0,"$type":"UnityEngine.Object"},"defaultValues":{},"position":{"x":-34.0,"y":81.0},"guid":"aa3fccc7-5c7d-4382-ab60-453aadbfecc9","$version":"A","$type":"Unity.VisualScripting.Literal"},{"chainable":false,"member":{"name":"enabled","parameterTypes":null,"targetType":"UnityEngine.UI.Image","targetTypeName":"UnityEngine.UI.Image","$version":"A"},"defaultValues":{"target":null,"input":{"$content":false,"$type":"System.Boolean"}},"position":{"x":106.0,"y":-61.0},"guid":"12688d15-e758-4c44-8ad6-06c8834b8747","$version":"A","$type":"Unity.VisualScripting.SetMember","$id":"15"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"15"},"destinationKey":"assign","guid":"b7f7dcee-25d3-4035-9dc5-ecc5bef1470e","$type":"Unity.VisualScripting.ControlConnection"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 21300000, guid: 362f1a4a7856dcd43a4148c8031e64e1, type: 3}
