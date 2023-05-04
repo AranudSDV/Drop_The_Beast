@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: MP4
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":148.8194,"y":1.538594},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{"buttonName":{"$content":"MP4Out","$type":"System.String"},"action":{"$content":"Down","$type":"Unity.VisualScripting.PressState"}},"position":{"x":-288.0,"y":-197.0},"guid":"3d0a62e0-dd70-4507-920d-aa0e4b15ed89","$version":"A","$type":"Unity.VisualScripting.OnButtonInput"},{"chainable":false,"member":{"name":"Play","parameterTypes":["System.String"],"targetType":"UnityEngine.Animator","targetTypeName":"UnityEngine.Animator","$version":"A"},"defaultValues":{"target":null,"%stateName":{"$content":"MP4Out","$type":"System.String"}},"position":{"x":56.0,"y":-197.0},"guid":"0f68e0e5-9561-4f79-b6a7-b760248285c7","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"11"},{"kind":"Object","defaultValues":{"name":{"$content":"MP4Out","$type":"System.String"},"object":null},"position":{"x":288.0,"y":-202.0},"guid":"42e5b273-b289-4a31-8b6d-61d51c9b3f81","$version":"A","$type":"Unity.VisualScripting.SetVariable","$id":"14"},{"type":"System.Boolean","value":{"$content":true,"$type":"System.Boolean"},"defaultValues":{},"position":{"x":135.0,"y":-42.0},"guid":"3a79f5c4-a0c5-4407-b904-60424781acc7","$version":"A","$type":"Unity.VisualScripting.Literal","$id":"16"},{"defaultValues":{},"position":{"x":-80.0,"y":-196.0},"guid":"55219a52-0f41-4b52-9231-b6af9e0ab7f7","$version":"A","$type":"Unity.VisualScripting.If","$id":"18"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"PlayFinished","$type":"System.String"},"object":null},"position":{"x":-292.0,"y":-49.0},"guid":"3860b461-3edb-4b06-9a3d-7dca88d7371a","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"20"},{"sourceUnit":{"$ref":"11"},"sourceKey":"exit","destinationUnit":{"$ref":"14"},"destinationKey":"assign","guid":"a78ea7dc-cc2d-4a7d-919d-71b1bab473c6","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"18"},"sourceKey":"ifTrue","destinationUnit":{"$ref":"11"},"destinationKey":"enter","guid":"ebd579f8-3a0e-4407-916f-3e1512b1dae4","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"output","destinationUnit":{"$ref":"14"},"destinationKey":"input","guid":"c49e0fec-4eaa-46fd-9ac9-3360a318d285","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"20"},"sourceKey":"value","destinationUnit":{"$ref":"18"},"destinationKey":"condition","guid":"f30fbb76-42a7-4506-9ae2-2a834488c064","$type":"Unity.VisualScripting.ValueConnection"},{"position":{"xMin":-328.0,"yMin":-271.0,"xMax":489.0,"yMax":106.0},"label":"Faire
+      sortir le MP4 UI (+? Faire comprendre qu''on ne bouge plus avec les fl\u00e8ches
+      mais choisir boutton)","comment":null,"color":{"r":0.0,"g":0.0,"b":0.0,"a":1.0},"guid":"a4524163-0969-4669-9993-eaaac9c11449","$version":"A","$type":"Unity.VisualScripting.GraphGroup"}],"$version":"A"}}'
+    _objectReferences: []
