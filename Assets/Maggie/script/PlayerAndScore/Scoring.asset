@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Scoring
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[],"$version":"A"}}'
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":39.86473,"y":-84.90517},"zoom":1.0,"elements":[{"kind":"Application","defaultValues":{"name":{"$content":"Scoring","$type":"System.String"}},"position":{"x":-139.0,"y":-137.0},"guid":"54e9601d-c72c-4b7a-a0b0-65d284442481","$version":"A","$type":"Unity.VisualScripting.SetVariable"}],"$version":"A"}}'
     _objectReferences: []
