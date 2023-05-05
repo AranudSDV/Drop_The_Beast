@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8665292083955187869}
   - component: {fileID: 8648640966021431187}
   - component: {fileID: 3117521426295367525}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -96,7 +96,7 @@ GameObject:
   - component: {fileID: 2228746101605598181}
   - component: {fileID: 8616296813122044542}
   - component: {fileID: 5699783892373013634}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Light
   m_TagString: Light
   m_Icon: {fileID: 0}
