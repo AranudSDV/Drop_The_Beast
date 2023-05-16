@@ -362,6 +362,12 @@ Transform:
   m_Father: {fileID: 1749655905}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &215636797 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2490773612882624451, guid: 231917ce0ff86b841b93b1c23408ff43,
+    type: 3}
+  m_PrefabInstance: {fileID: 2490773611075686913}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &267711232 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6143359629608891864, guid: 231917ce0ff86b841b93b1c23408ff43,
@@ -563,7 +569,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh28434
+  m_Name: pb_Mesh55194
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -975,6 +981,8 @@ MonoBehaviour:
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Listen_Object","value":{"$content":3,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Close_Object","value":{"$content":4,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Quit_Object","value":{"$content":5,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"ButtonA_Object","value":{"$content":6,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"TimingCircle_Object","value":{"$content":7,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 1407006670}
@@ -983,6 +991,8 @@ MonoBehaviour:
     - {fileID: 918432429}
     - {fileID: 613041165}
     - {fileID: 481947639}
+    - {fileID: 1077225143}
+    - {fileID: 215636797}
 --- !u!4 &715107835
 Transform:
   m_ObjectHideFlags: 0
@@ -1139,6 +1149,12 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3756780264842659125, guid: 3b8d1b19f43bc9e43ad2485843dfc397,
     type: 3}
   m_PrefabInstance: {fileID: 3756780264682631064}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1077225143 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1010722932, guid: 231917ce0ff86b841b93b1c23408ff43,
+    type: 3}
+  m_PrefabInstance: {fileID: 2490773611075686913}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1161265890
 GameObject:
@@ -2291,31 +2307,9 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 180772566}
     m_Modifications:
-    - target: {fileID: 2472120916416826957, guid: 231917ce0ff86b841b93b1c23408ff43,
-        type: 3}
-      propertyPath: _data._json
-      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Speed","value":{"$content":20.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Horizontal","value":{"$content":"Horizontal","$type":"System.String"},"typeHandle":{"Identification":"System.String,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Vertical","value":{"$content":"Vertical","$type":"System.String"},"typeHandle":{"Identification":"System.String,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"ClickCoolDown","value":{"$content":0.8,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"ClickWindow","value":{"$content":0.2,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"TimingSizeDivider","value":{"$content":0.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"InTiming","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"TimingCircle","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"VolumeFill","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.Image,
-        UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"MaxVolume","value":{"$content":10.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Radius","value":{"$content":2.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"CurrentVolume","value":{"$content":0.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"HeavyObjectScore","value":{"$content":15,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"MediumObjectScore","value":{"$content":10,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"LightObjectScore","value":{"$content":5,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"SceneHandler","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"SceneHandler,
-        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-      objectReference: {fileID: 0}
-    - target: {fileID: 2472120916416826957, guid: 231917ce0ff86b841b93b1c23408ff43,
-        type: 3}
-      propertyPath: _data._objectReferences.Array.size
-      value: 3
+    - target: {fileID: 1010722932, guid: 231917ce0ff86b841b93b1c23408ff43, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2472120916416826957, guid: 231917ce0ff86b841b93b1c23408ff43,
         type: 3}
@@ -2327,6 +2321,11 @@ PrefabInstance:
       propertyPath: _data._objectReferences.Array.data[2]
       value: 
       objectReference: {fileID: 1769002071}
+    - target: {fileID: 2490773612882624451, guid: 231917ce0ff86b841b93b1c23408ff43,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6143359629608891864, guid: 231917ce0ff86b841b93b1c23408ff43,
         type: 3}
       propertyPath: m_RootOrder
@@ -2386,11 +2385,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 7319804497884707393, guid: 231917ce0ff86b841b93b1c23408ff43,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 231917ce0ff86b841b93b1c23408ff43, type: 3}
