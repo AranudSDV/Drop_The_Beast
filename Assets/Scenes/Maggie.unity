@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028346, g: 0.22571373, b: 0.30692244, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -569,7 +569,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh28652
+  m_Name: pb_Mesh28178
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -1095,14 +1095,22 @@ MonoBehaviour:
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Scene_MP4_Object","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Scene_Play_Object","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Scene_Main_Object","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Listen_Object","value":{"$content":3,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Listen_Music_0_Object","value":{"$content":3,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Close_Object","value":{"$content":4,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Quit_Object","value":{"$content":5,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"ButtonA_Object","value":{"$content":6,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"TimingCircle_Object","value":{"$content":7,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"SD_Feedback_ButtonClick","value":null,"typeHandle":{"Identification":"PlaySound,
       Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"SD_Feedback_MP4CloseOpen","value":null,"typeHandle":{"Identification":"PlaySound,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"SD_MusicPlaying_1","value":null,"typeHandle":{"Identification":"PlaySound,
+      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"SD_MusicPlaying_0","value":null,"typeHandle":{"Identification":"PlaySound,
+      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Listen_Music_R_Object","value":{"$content":8,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Listen_Music_RR_Object","value":{"$content":9,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Listen_Music_L_Object","value":{"$content":10,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Listen_Music_LL_Object","value":{"$content":11,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"SD_MusicPlaying_R","value":null,"typeHandle":{"Identification":"PlaySound,
+      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"SD_MusicPlaying_RR","value":null,"typeHandle":{"Identification":"PlaySound,
+      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"SD_MusicPlaying_L","value":null,"typeHandle":{"Identification":"PlaySound,
+      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"SD_MusicPlaying_LL","value":null,"typeHandle":{"Identification":"PlaySound,
       Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 1407006670}
@@ -1113,6 +1121,10 @@ MonoBehaviour:
     - {fileID: 481947639}
     - {fileID: 1077225143}
     - {fileID: 215636797}
+    - {fileID: 3756780264682631068}
+    - {fileID: 3756780264682631067}
+    - {fileID: 3756780264682631066}
+    - {fileID: 3756780264682631065}
 --- !u!4 &715107835
 Transform:
   m_ObjectHideFlags: 0
@@ -2438,7 +2450,7 @@ PrefabInstance:
       value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Speed","value":{"$content":20.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Horizontal","value":{"$content":"Horizontal","$type":"System.String"},"typeHandle":{"Identification":"System.String,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Vertical","value":{"$content":"Vertical","$type":"System.String"},"typeHandle":{"Identification":"System.String,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"ClickCoolDown","value":{"$content":0.8,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"ClickCoolDown_0","value":{"$content":0.8,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"ClickWindow","value":{"$content":0.2,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"TimingSizeDivider","value":{"$content":0.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"InTiming","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
@@ -2455,7 +2467,21 @@ PrefabInstance:
         Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"SD_Feedback_MinVolume","value":null,"typeHandle":{"Identification":"PlaySound,
         Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"FX_Feedback_MaxVolume","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"FX_Feedback_MinVolume","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Listen_Music_0_Object","value":{"$content":3,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Listen_Music_R_Object","value":{"$content":4,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Listen_Music_L_Object","value":{"$content":5,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Listen_Music_RR_Object","value":{"$content":6,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Listen_Music_LL_Object","value":{"$content":7,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"ClickCoolDown_R","value":{"$content":0.6,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"ClickCoolDown_RR","value":{"$content":0.8,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"ClickCoolDown_L","value":{"$content":0.8,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"ClickCoolDown_LL","value":{"$content":0.8,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2472120916416826957, guid: 231917ce0ff86b841b93b1c23408ff43,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.size
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2472120916416826957, guid: 231917ce0ff86b841b93b1c23408ff43,
         type: 3}
@@ -2467,6 +2493,31 @@ PrefabInstance:
       propertyPath: _data._objectReferences.Array.data[2]
       value: 
       objectReference: {fileID: 1769002071}
+    - target: {fileID: 2472120916416826957, guid: 231917ce0ff86b841b93b1c23408ff43,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[3]
+      value: 
+      objectReference: {fileID: 918432429}
+    - target: {fileID: 2472120916416826957, guid: 231917ce0ff86b841b93b1c23408ff43,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[4]
+      value: 
+      objectReference: {fileID: 3756780264682631068}
+    - target: {fileID: 2472120916416826957, guid: 231917ce0ff86b841b93b1c23408ff43,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[5]
+      value: 
+      objectReference: {fileID: 3756780264682631066}
+    - target: {fileID: 2472120916416826957, guid: 231917ce0ff86b841b93b1c23408ff43,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[6]
+      value: 
+      objectReference: {fileID: 3756780264682631067}
+    - target: {fileID: 2472120916416826957, guid: 231917ce0ff86b841b93b1c23408ff43,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[7]
+      value: 
+      objectReference: {fileID: 3756780264682631065}
     - target: {fileID: 2490773612882624451, guid: 231917ce0ff86b841b93b1c23408ff43,
         type: 3}
       propertyPath: m_IsActive
@@ -2753,6 +2804,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3183421638476275519, guid: 3b8d1b19f43bc9e43ad2485843dfc397,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3623058712796348133, guid: 3b8d1b19f43bc9e43ad2485843dfc397,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3756780264473411680, guid: 3b8d1b19f43bc9e43ad2485843dfc397,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -2816,7 +2877,7 @@ PrefabInstance:
     - target: {fileID: 3756780265432029270, guid: 3b8d1b19f43bc9e43ad2485843dfc397,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3756780265432029271, guid: 3b8d1b19f43bc9e43ad2485843dfc397,
         type: 3}
@@ -2916,8 +2977,42 @@ PrefabInstance:
       propertyPath: _data._objectReferences.Array.data[5]
       value: 
       objectReference: {fileID: 1401007499}
+    - target: {fileID: 7378360353519592901, guid: 3b8d1b19f43bc9e43ad2485843dfc397,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7844249195485234476, guid: 3b8d1b19f43bc9e43ad2485843dfc397,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3b8d1b19f43bc9e43ad2485843dfc397, type: 3}
+--- !u!1 &3756780264682631065 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5882567707250239290, guid: 3b8d1b19f43bc9e43ad2485843dfc397,
+    type: 3}
+  m_PrefabInstance: {fileID: 3756780264682631064}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3756780264682631066 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4695717206027108806, guid: 3b8d1b19f43bc9e43ad2485843dfc397,
+    type: 3}
+  m_PrefabInstance: {fileID: 3756780264682631064}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3756780264682631067 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3399775018942410566, guid: 3b8d1b19f43bc9e43ad2485843dfc397,
+    type: 3}
+  m_PrefabInstance: {fileID: 3756780264682631064}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3756780264682631068 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5380076804532220904, guid: 3b8d1b19f43bc9e43ad2485843dfc397,
+    type: 3}
+  m_PrefabInstance: {fileID: 3756780264682631064}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5051143834395702271
 PrefabInstance:
   m_ObjectHideFlags: 0
