@@ -501,7 +501,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh28208
+  m_Name: pb_Mesh55362
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -845,6 +845,35 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8395fda6969b043438dbf32726898c7e, type: 3}
+--- !u!1 &415215832 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6589627656354137391, guid: d49c100186bf54641aa80a99564cccaf,
+    type: 3}
+  m_PrefabInstance: {fileID: 3429693337079339157}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &415215836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 415215832}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 875ea4e1e588dcd49881924bc6c6ffed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 267711232}
+  followOnXAxis: 1
+  followOnYAxis: 0
+  followOnZAxis: 1
+  smoothTime: 1
+  maxDistance: 15
+  shareOrientation: 0
+  rotateOnXAxis: 1
+  rotateOnYAxis: 1
+  rotateOnZAxis: 1
+  rotateSpeed: 10
 --- !u!1 &429852697
 GameObject:
   m_ObjectHideFlags: 0
@@ -2854,6 +2883,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 231917ce0ff86b841b93b1c23408ff43, type: 3}
+--- !u!1 &2490773611075686914 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6337784935112454744, guid: 231917ce0ff86b841b93b1c23408ff43,
+    type: 3}
+  m_PrefabInstance: {fileID: 2490773611075686913}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2650579662976260401
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3074,9 +3109,23 @@ PrefabInstance:
         type: 3}
       propertyPath: _data._json
       value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"RadiusPlayerDetect","value":{"$content":6.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"RadiusPlayerCatch","value":{"$content":2.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"RadiusPlayerCatch","value":{"$content":1.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"NeighbourState_Angry","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"NeighbourState_Happy","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"NeighbourState_Bored","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Player_Object","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
+    - target: {fileID: 4697355697831160125, guid: d49c100186bf54641aa80a99564cccaf,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4697355697831160125, guid: d49c100186bf54641aa80a99564cccaf,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[0]
+      value: 
+      objectReference: {fileID: 2490773611075686914}
     - target: {fileID: 6589627656354137391, guid: d49c100186bf54641aa80a99564cccaf,
         type: 3}
       propertyPath: m_Name
