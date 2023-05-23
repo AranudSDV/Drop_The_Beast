@@ -5,7 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+  - enabled: 0
+    path: Assets/Drop_the_beat_projects_all/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Drop_the_beat_projects_all/FINAL/Final_MenuScene.unity
+    guid: da8c504fa3a470842addcdedc935922f
+  - enabled: 1
+    path: Assets/Drop_the_beat_projects_all/FINAL/Drop The Beast Project.unity
+    guid: 773cd8ce65ed7bb4889e7207c666dab6
   m_configObjects: {}
