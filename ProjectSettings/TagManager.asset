@@ -17,7 +17,7 @@ TagManager:
   - UI
   - Destructible
   - Player
-  - 
+  - Neighbour
   - 
   - 
   - 
@@ -50,4 +50,7 @@ TagManager:
     locked: 0
   - name: UI_Canvas
     uniqueID: 834111691
+    locked: 0
+  - name: UI_Chara
+    uniqueID: 939469481
     locked: 0
