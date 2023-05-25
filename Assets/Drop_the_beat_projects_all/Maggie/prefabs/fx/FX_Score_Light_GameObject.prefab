@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &3778352103865195099
+--- !u!1 &7691150381363980366
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,70 +8,42 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 7567451683647532927}
-  - component: {fileID: 8616296813122044542}
-  - component: {fileID: 5699783892373013634}
-  m_Layer: 6
-  m_Name: Light
-  m_TagString: Light
+  - component: {fileID: 6925031740818463467}
+  m_Layer: 0
+  m_Name: FX_Score_Light_GameObject
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &7567451683647532927
+--- !u!4 &6925031740818463467
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3778352103865195099}
+  m_GameObject: {fileID: 7691150381363980366}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 5624493836936338907}
+  - {fileID: 7181309278125734505}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8616296813122044542
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3778352103865195099}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _data:
-    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
-    _objectReferences: []
---- !u!114 &5699783892373013634
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3778352103865195099}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _data:
-    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
-    _objectReferences:
-    - {fileID: 11400000, guid: 2168fdd6bcb02e94191b4a1de39a56ff, type: 2}
---- !u!1001 &220230386482382065
+--- !u!1001 &3362359039623684931
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 7567451683647532927}
+    m_TransformParent: {fileID: 6925031740818463467}
     m_Modifications:
+    - target: {fileID: 435312301761712868, guid: 7a2d947d328c6164c851015059c50163,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5548537025112660266, guid: 7a2d947d328c6164c851015059c50163,
         type: 3}
       propertyPath: m_RootOrder
@@ -100,17 +72,17 @@ PrefabInstance:
     - target: {fileID: 5548537025112660266, guid: 7a2d947d328c6164c851015059c50163,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 5548537025112660266, guid: 7a2d947d328c6164c851015059c50163,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 5548537025112660266, guid: 7a2d947d328c6164c851015059c50163,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 5548537025112660266, guid: 7a2d947d328c6164c851015059c50163,
         type: 3}
@@ -132,16 +104,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Score_+5
       objectReference: {fileID: 0}
-    - target: {fileID: 6608559693905257999, guid: 7a2d947d328c6164c851015059c50163,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7a2d947d328c6164c851015059c50163, type: 3}
---- !u!4 &5624493836936338907 stripped
+--- !u!4 &7181309278125734505 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5548537025112660266, guid: 7a2d947d328c6164c851015059c50163,
     type: 3}
-  m_PrefabInstance: {fileID: 220230386482382065}
+  m_PrefabInstance: {fileID: 3362359039623684931}
   m_PrefabAsset: {fileID: 0}
