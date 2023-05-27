@@ -54,3 +54,6 @@ TagManager:
   - name: UI_Chara
     uniqueID: 939469481
     locked: 0
+  - name: UI_Bubble
+    uniqueID: 2137465505
+    locked: 0
