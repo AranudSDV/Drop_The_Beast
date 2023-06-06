@@ -570,6 +570,11 @@ PrefabInstance:
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"NeighbourState_Happy","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"NeighbourState_Bored","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Player_Object","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Music_R_Manager_GameObject","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Music_L_Manager_GameObject","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Music_0_Manager_GameObject","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"ButtonA_Object","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Timing_Circle","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 4697355697831160125, guid: d49c100186bf54641aa80a99564cccaf,
@@ -601,7 +606,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh35736
+  m_Name: pb_Mesh28198
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -3239,14 +3244,70 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3756780265542599191, guid: 3b8d1b19f43bc9e43ad2485843dfc397,
         type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"PlayFinished","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"MP4Out","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Listen_Music_0_Object","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Close_Object","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Quit_Object","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Scene_Play_Object","value":{"$content":3,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Listen_Music_R_Object","value":{"$content":4,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Listen_Music_L_Object","value":{"$content":5,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Prix_Object_L_Component","value":{"$content":6,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Prix_Object_R_Component","value":{"$content":7,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"little_mp4_highlight_object","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3756780265542599191, guid: 3b8d1b19f43bc9e43ad2485843dfc397,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.size
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3756780265542599191, guid: 3b8d1b19f43bc9e43ad2485843dfc397,
+        type: 3}
       propertyPath: _data._objectReferences.Array.data[0]
       value: 
-      objectReference: {fileID: 1756429147}
+      objectReference: {fileID: 918432429}
+    - target: {fileID: 3756780265542599191, guid: 3b8d1b19f43bc9e43ad2485843dfc397,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[1]
+      value: 
+      objectReference: {fileID: 613041165}
+    - target: {fileID: 3756780265542599191, guid: 3b8d1b19f43bc9e43ad2485843dfc397,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[2]
+      value: 
+      objectReference: {fileID: 481947639}
+    - target: {fileID: 3756780265542599191, guid: 3b8d1b19f43bc9e43ad2485843dfc397,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[3]
+      value: 
+      objectReference: {fileID: 1401007499}
+    - target: {fileID: 3756780265542599191, guid: 3b8d1b19f43bc9e43ad2485843dfc397,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[4]
+      value: 
+      objectReference: {fileID: 3756780264682631068}
     - target: {fileID: 3756780265542599191, guid: 3b8d1b19f43bc9e43ad2485843dfc397,
         type: 3}
       propertyPath: _data._objectReferences.Array.data[5]
       value: 
-      objectReference: {fileID: 1401007499}
+      objectReference: {fileID: 3756780264682631066}
+    - target: {fileID: 3756780265542599191, guid: 3b8d1b19f43bc9e43ad2485843dfc397,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[6]
+      value: 
+      objectReference: {fileID: 3756780264682631067}
+    - target: {fileID: 3756780265542599191, guid: 3b8d1b19f43bc9e43ad2485843dfc397,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[7]
+      value: 
+      objectReference: {fileID: 3756780264682631065}
+    - target: {fileID: 3756780265542599191, guid: 3b8d1b19f43bc9e43ad2485843dfc397,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[8]
+      value: 
+      objectReference: {fileID: 3756780264682631065}
     - target: {fileID: 6283516775154504388, guid: 3b8d1b19f43bc9e43ad2485843dfc397,
         type: 3}
       propertyPath: m_RootOrder
@@ -3254,9 +3315,21 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3b8d1b19f43bc9e43ad2485843dfc397, type: 3}
+--- !u!1 &3756780264682631065 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5268537875149489167, guid: 3b8d1b19f43bc9e43ad2485843dfc397,
+    type: 3}
+  m_PrefabInstance: {fileID: 3756780264682631064}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &3756780264682631066 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4695717206027108806, guid: 3b8d1b19f43bc9e43ad2485843dfc397,
+    type: 3}
+  m_PrefabInstance: {fileID: 3756780264682631064}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3756780264682631067 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8985227655677981671, guid: 3b8d1b19f43bc9e43ad2485843dfc397,
     type: 3}
   m_PrefabInstance: {fileID: 3756780264682631064}
   m_PrefabAsset: {fileID: 0}
