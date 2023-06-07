@@ -179,8 +179,8 @@ MonoBehaviour:
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"AudioSource_Pas","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.AudioSource,
       UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
-    - {fileID: 1982331040}
-    - {fileID: 1232324565}
+    - {fileID: 0}
+    - {fileID: 0}
 --- !u!114 &7319804497884707393
 MonoBehaviour:
   m_ObjectHideFlags: 0
