@@ -7333,6 +7333,11 @@ PrefabInstance:
       propertyPath: smoothTime
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3070440929035474094, guid: d55ba26533a41ec49b516e9c53ad9f76,
+        type: 3}
+      propertyPath: maxDistance
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 5750516147646444423, guid: d55ba26533a41ec49b516e9c53ad9f76,
         type: 3}
       propertyPath: m_RootOrder
